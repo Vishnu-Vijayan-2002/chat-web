@@ -1,0 +1,26 @@
+.main-conatiner{ 
+   height:100vh ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+@media screen and (max-width:490px) {
+    .main-conatiner{
+        width:350px;
+        /* height: 100vh; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-head{
+        font-size: 10px;
+    }
+    .head{
+        font-size: 9px;
+    }
+   .btn-primary{
+    width: 120px;
+    height: 44px;
+   }
+}
